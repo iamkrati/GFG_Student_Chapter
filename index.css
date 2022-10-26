@@ -153,6 +153,7 @@ body {
 }
 @media screen  and (max-width:500px)
 {
+  
    #gal_p img{
     width: 80%;
    }
@@ -171,4 +172,14 @@ body {
     width: 100%;
     height: 100px;
   }
+}
+@media screen  and (max-width:945px)
+{
+  .about img{
+margin: auto;
+  }
+.about_content {
+  width: 90%;
+  margin-left: 10%;
+}
 }
