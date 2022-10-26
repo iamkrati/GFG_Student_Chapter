@@ -1,0 +1,110 @@
+body{
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+.parent{
+    width: 80%;
+    height: 25%;
+    margin-left: 10%;
+                
+}
+
+
+p{
+    margin: 10px;
+}
+p, p b {
+    font-size: 1.5em;
+}
+
+.child1, .child3{
+    text-align: right;
+}
+.child2, .child4{
+    text-align: left;
+}
+
+.child4 {
+    align-content: space-around;
+}
+
+.img1{
+    float: left;
+    height: 150px;
+    margin: 10px;
+    clip-path: circle(50% at 50% 50%) ;
+}
+.img2{
+    height: 150px;
+    clip-path: circle(50% at 50% 50%) ;
+    margin: 10px;
+    float: right;
+}
+
+.child{
+    background-color: #228B22;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 100px;
+    color: white;
+}
+.child1{
+    padding: 30px;
+    height: 170px;
+}
+.child1 .ic1{
+    margin-left: 690px;
+}
+.child1 .ic2{
+    margin-left: 120px;
+}
+.child2{
+    padding: 30px;
+    height: 170px;
+}
+.child2 .ic1{
+    margin-left: 80px;
+}
+.child2 .ic2{
+    margin-left: 120px;
+}
+.child3{
+    padding: 30px;
+    height: 170px;
+}
+.child3 .ic1{
+    margin-left: 690px;
+}
+.child3 .ic2{
+    margin-left: 120px;
+}
+.child4{
+    padding: 30px;
+    height: 170px;
+}
+.child4 .ic1{
+    margin-left:80px;
+}
+.child4 .ic2{
+    margin-left: 120px;
+}
+.fa-instagram {  
+  background: linear-gradient(to right, orange,rgb(255, 55, 55),rgb(255, 36, 36),rgb(153, 0, 255),rgb(247, 48, 247));  
+  color: white;  
+}  
+.fa {  
+  padding: 4px;  
+  text-align: center; 
+  border-radius: 5px; 
+  font-size: 30px;  
+  width: 25px;  
+}  
+.fa-linkedin {  
+  background: #007bb5;  
+  color: white;  
+} 
+
