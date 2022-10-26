@@ -335,3 +335,26 @@ margin: auto;
   background: url("https://images.unsplash.com/photo-1600172454520-134a542a2255?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80");
 }
 /* Team end */
+
+.imgdiv
+{
+  display: flex;
+  justify-content: center;
+}
+.imgdiv img{
+  width: 500px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact iframe
+{
+  margin: auto;
+  height: 800px;
+}
+.contact
+{
+  background: url("Con.jpg");
+}
