@@ -342,7 +342,7 @@ margin: auto;
   justify-content: center;
 }
 .imgdiv img{
-  width: 450px;
+  width: 60%;
 }
 .contact{
   display: flex;
@@ -357,6 +357,7 @@ margin: auto;
 .contact
 {
   background: url("Con.jpg");
+  margin-bottom: -20px;
 }
 @media screen  and (max-width:900px)
 {
@@ -369,6 +370,23 @@ margin: auto;
 {
   .imgdiv img
   {
-    width: 80%;
+    width: 60%;
   }
+}
+.social{
+  color: white;
+  background: #318D44;
+  padding: 20px 20px;
+  text-align: center;
+}
+#links i{
+  padding: 20px 20px;
+  font-size: 40px;
+}
+#links a{
+  color: white;
+}
+#links a:hover
+{
+  cursor: progress;
 }
