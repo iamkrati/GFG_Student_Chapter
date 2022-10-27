@@ -342,7 +342,7 @@ margin: auto;
   justify-content: center;
 }
 .imgdiv img{
-  width: 60%;
+  width: 450px;
 }
 .contact{
   display: flex;
@@ -368,9 +368,22 @@ margin: auto;
 }
 @media screen  and (max-width:555px)
 {
-  .imgdiv img
-  {
+  #aboutimage{
+    width: 80%;
+  }
+  .imgdiv img{
     width: 60%;
+    margin: auto;
+  }
+}
+@media screen  and (max-width:310px)
+{
+  .aboutimage{
+    width: 200px;
+  }
+  .about_content span
+  {
+    font-size: 30px;
   }
 }
 .social{
