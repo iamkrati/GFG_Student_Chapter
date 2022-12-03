@@ -216,7 +216,7 @@ margin: auto;
 
 .our-team .picture {
   display: inline-block;
-  height: 200px;
+  height: 190px;
   width: 180px;
   z-index: 1;
   position: relative;
@@ -244,15 +244,16 @@ margin: auto;
 
 .our-team .picture::after {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 94%;
   border-radius: 50%;
   background-color: #318D44;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: 9px;
   z-index: -1;
 }
+
 
 .our-team .picture img {
   width: 100%;
